@@ -3,7 +3,7 @@ package Singleton;
 /**
  * Created by SG on 2017/10/12.
  */
-public class SingletonClent {
+public class SingletonClient {
 
     public static void main(String[] argv){
 
@@ -14,5 +14,4 @@ public class SingletonClent {
         SingletonSFLazy.getInstance().selfIntroduce();
 
     }
-
 }
