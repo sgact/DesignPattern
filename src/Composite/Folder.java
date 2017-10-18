@@ -14,10 +14,17 @@ public class Folder extends File {
     }
 
     @Override
+    public void addChild(File file) {
+        childFiles.add(file);
+    }
+
+    @Override
     public void scanVirus() {
         System.out.println("正在杀毒文件夹 -> " + fileName);
         for (File file : childFiles){
             file.scanVirus();
         }
     }
+
+
 }

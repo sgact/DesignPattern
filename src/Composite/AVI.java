@@ -10,6 +10,11 @@ public class AVI extends File{
     }
 
     @Override
+    public void addChild(File file) {
+        System.out.println("不支持该方法");
+    }
+
+    @Override
     public void scanVirus() {
         System.out.println("正在杀毒 -> " +fileName + ".AVI");
     }

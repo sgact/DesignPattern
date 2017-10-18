@@ -1,4 +1,4 @@
-package Composite;
+package Composite.SafeComposite;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,11 +12,14 @@ public abstract class File {
 
     protected List<File> childFiles = new ArrayList<>();
 
+
     public File(String fileName) {
         this.fileName = fileName;
     }
 
-    public abstract void addChild(File file);
+//    protected void addChild(File file){
+//        childFiles.add(file);
+////    }
 
     public abstract void scanVirus();
 
