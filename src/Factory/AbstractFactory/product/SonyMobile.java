@@ -22,6 +22,6 @@ public class SonyMobile {
 
     @Override
     public String toString() {
-        return "Ram:" + ram.ramDesc + "," + "Camera" + camera.cameraDesc;
+        return "Disk:" + ram.ramDesc + "," + "Camera" + camera.cameraDesc;
     }
 }
