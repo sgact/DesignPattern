@@ -1,6 +1,7 @@
 package FlyWeight.share;
 
 /**
+ * @author sg
  * Created by SG on 2017/10/18.
  */
 public class A_LetterMemo  extends LetterMemo {

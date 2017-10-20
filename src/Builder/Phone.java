@@ -9,7 +9,7 @@ public class Phone {
 
     private String screen;
 
-    private String Color;
+    private String color;
 
     public String getRam() {
         return ram;
@@ -28,11 +28,11 @@ public class Phone {
     }
 
     public String getColor() {
-        return Color;
+        return color;
     }
 
     public void setColor(String color) {
-        Color = color;
+        this.color = color;
     }
 
     @Override
@@ -40,7 +40,7 @@ public class Phone {
         return "Phone{" +
                 "ram='" + ram + '\'' +
                 ", screen='" + screen + '\'' +
-                ", Color='" + Color + '\'' +
+                ", color='" + color + '\'' +
                 '}';
     }
 }

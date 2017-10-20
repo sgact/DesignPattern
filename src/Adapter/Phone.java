@@ -21,6 +21,7 @@ public class Phone implements Chargable{
         }
     });
 
+    @Override
     public void inCharge(int voltage){
         if (voltage != voltageIn){
             System.out.println("手机爆炸");

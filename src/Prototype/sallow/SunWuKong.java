@@ -21,6 +21,7 @@ public class SunWuKong implements Cloneable{
         return jinGuBang;
     }
 
+    @Override
     public SunWuKong clone(){
         Object sunWuKong = null;
         try {

@@ -20,6 +20,7 @@ public class LetterFactory {
                 case "V":
                     letter = (Letter) Class.forName(LetterConfig.V).newInstance();
                     break;
+                default:
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

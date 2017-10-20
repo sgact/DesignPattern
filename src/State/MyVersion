@@ -1,0 +1,8 @@
+我的版本：
+
+State不持有Account引用
+State负责标志状态
+
+网络版本
+State持有Account引用
+State负责对账户余额操作

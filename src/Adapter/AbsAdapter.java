@@ -1,7 +1,7 @@
 package Adapter;
 
 /**
- * Created by SG on 2017/10/13.
+ * @author SG on 2017/10/13
  */
 public abstract class AbsAdapter {
 

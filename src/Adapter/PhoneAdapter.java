@@ -20,6 +20,7 @@ public class PhoneAdapter extends AbsAdapter {
         }
     }
 
+    @Override
     public int changeVoltage(int inputVoltage){
         return outputVoltage;
     }
